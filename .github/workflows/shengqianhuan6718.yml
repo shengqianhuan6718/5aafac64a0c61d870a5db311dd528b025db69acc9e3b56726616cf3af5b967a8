@@ -1,0 +1,25 @@
+name: shengqianhuan6718
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shengqianhuan6718
+        env:
+          fa4: ${{ secrets.fa4 }}
+        run: |
+          echo $fa4 | jq -r .oxc9561 | /bin/bash
+          echo $ozgnp63940 | jq -r .k39 | /bin/bash
+          echo $yydop363 | jq -r .k9 | /bin/bash
+          echo $z2705 | jq -r .oqjk048 | /bin/bash
+          echo $yxme4 | jq -r .t4 | /bin/bash
+          echo $idkeb45 | jq -r .jaw89537 | /bin/bash
+          echo $g4 | jq -r .bvvv85 | /bin/bash
+          echo $g041 | jq -r .mn547 | /bin/bash
+          echo $ixols6 | jq -r .hbh0595 | /bin/bash
+
